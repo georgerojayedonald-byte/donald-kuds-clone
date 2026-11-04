@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kuda clone</title>
+    <script type="importmap">
+{
+  "imports": {
+    "@floating-ui/dom": "https://cdn.jsdelivr.net/npm/@floating-ui/dom@1.7.6/dist/floating-ui.dom.esm.min.js",
+    "vanilla-calendar-pro": "https://cdn.jsdelivr.net/npm/vanilla-calendar-pro@3.4.0/index.mjs"
+  }
+}
+</script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.min.js"
+        integrity="sha384-BJf/nQgxZJU68GxBse97Vdlc8Rh+z9PzzXiS3/BjV+1nQPR7IKn+iJnD3DJvCMaU"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+        integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+        integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <script src="https://kit.fontawesome.com/YOUR_KIT_CODE.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- header-nav -->
+    <header>
+        <nav>
+            <div class="nav-leftside">
+                <a href="./index.html"><img src="./images/imgi_26_Kuda-logo.png" alt="" class="kuda-logo"></a>
+                <div class="nav-leftbtn">
+                    <a href="./" class="personal">Personal <i class=" fa-solid fa-chevron-down"></i></a>
+                    <a href="./" class="business">Business</a>
+                </div>
+            </div>
+            <div class="nav-rightside">
+                <div class="nav-rightbtn">
+                    <a href="./" class="help">Help</a>
+                    <a href="./" class="sign-in">Sign in</a>
+                </div>
+                <a href="./" class="join">Join Kuda</a>
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero-sec">
+        <div class="hero-con">
+            <h3 class="digital">The digital bank built for Nigerians</h3>
+            <h1 class="more">MORE FROM YOUR MONEY, MORE FOR YOUR LIFE</h1>
+            <h3 class="send">Send money fast, spend with confidence, and save automatically with Kuda.</h3>
+            <a href="./" class="Download-kuda">Download Kuda</a>
+        </div>
+    </section>
+    <!-- second-sec -->
+    <section class="second-sec">
+        <video src="./video/WEBSITE-BANNER-VARIANT-2.mp4" class="first-video" autoplay loop></video>
+    </section>
+    <!-- third-sec -->
+    <section class="ticker" aria-label="What I do">
+        <div class="ticker-track">
+            <span>
+                <img src="./images/imgi_5_star-icon.png" class="ticker-shii"></img>Rated 4.8 on the app store
+            </span><span>
+                <img src="./images/imgi_6_human-icon.png" class="ticker-shii"></img>Over 8 million customers
+            </span><span>
+                <img src="./images/imgi_5_star-icon.png" class="ticker-shii"></img>Rated 4.5 on Goggle Play
+            </span><span>
+                <img src="./images/imgi_7_betting-icon.png" class="ticker-shii"></img>Awarded ‘Inclusive Financial
+                Product’ 2024 by the
+                CBN
+            </span>
+
+        </div>
+    </section>
+    <!-- fourth-sec -->
+    <section class="fourth-sec">
+        <div class="fourth-dcon">
+            <h2 clas="dcon-h2">Join over</h2>
+            <h1 class="dcon-h1">8 MILLION CUSTOMERS</h1>
+            <p class="dcon-p">Fully licensed by the CBN <img src="./images/imgi_53_CBN.png"></img> insured by <img
+                    src="./images/imgi_54_NDIC.png"></img>
+            </p>
+        </div>
+        <div class="fourth-dcon2">
+            <img src="./images/imgi_58_float1.png" alt="" class="float one">
+            <img src="./images/imgi_63_float2.png" alt="" class="float two">
+            <img src="./images/imgi_68_float3.png" alt="" class="float three">
+            <img src="./images/imgi_float4.png" alt="" class="float four">
+            <img src="./images/imgi_78_float5.png" alt="" class="float five">
+            <img src="./images/imgi_83_float6.png" alt="" class="float six">
+        </div>
+    </section>
+    <!-- fifth-sec -->
+    <section class="fifth-sec">
+        <div class="fifth-dcon">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-autoplay="true">
+                <div class="carousel-inner rounded-5">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <img src="./images/imgi_91_beach.png" class="d-block w-100" alt="...">
+                        <div class="fifth-dcon2">
+                            <div>
+                                <h1 class="dcon2-h1">SEND</h1>
+                                <h4 class="dcon2-h4">Send money fast, schedule payments, and get 25 free transfers every
+                                    month.</h4>
+                                <a href="./" class="dcon2-butt">Send money</a>
+                            </div>
+                            <div class="b-phone">
+                                <video src="./video/SEND-corrected.mp4" class="sec-vid" autoplay loop></video>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="4000">
+                        <img src="./images/imgi_97_tennis.webp" class="d-block w-100" alt="...">
+                        <div class="fifth-dcon2">
+                            <div>
+                                <h1 class="dcon2-h1">SPEND</h1>
+                                <h4 class="dcon2-h4 rep1">Scan to pay, get a physical or virtual debit card, and earn
+                                    Kuda Coins as you spend.</h4>
+                                <a href="./" class="dcon2-butt">Get Started</a>
+                            </div>
+                            <div class="b-phone">
+                                <video src="./video/SPEND-corrected.mp4" class="sec-vid" autoplay loop></video>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="6000">
+                        <img src="./images/imgi_103_train.webp" class="d-block w-100" alt="...">
+                        <div class="fifth-dcon2">
+                            <div>
+                                <h1 class="dcon2-h1">SAVE</h1>
+                                <h4 class="dcon2-h4 rep2">Save automatically with Spend+Save, set savings goals, and
+                                    earn up to 20% interest.</h4>
+                                <a href="./" class="dcon2-butt">Start Saving</a>
+                            </div>
+                            <div class="b-phone">
+                                <video src="./video/Promo-save.mp4" class="sec-vid" autoplay loop></video>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class=" justify-content-between align-items-center  mt-3">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <!-- <button class="btn-icon btn-sm carousel-control-play-pause" type="button"
+                        data-bs-target="#carouselExampleInterval" aria-label="Pause" data-bs-pause-label="Pause"
+                        data-bs-play-label="Play">
+                        <span class="carousel-icon-pause" aria-hidden="true"></span>
+                        <span class="carousel-icon-play" aria-hidden="true"></span>
+                    </button> -->
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- six-sec -->
+    <section class="sixth-sec">
+        <div class="sixth-dcon">
+            <h1 class="dcon3-h1">UNLOCK REWARDS WITH KUDA PREMIUM</h1>
+            <a href="./" class="explore">Explore Premium <i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+        <div class="sixth-dcon2">
+            <div class="card card1">
+                <h4 class="card-h4">EARN CASHBACK ON BILLS, AND ACCESS EXCLUSIVE REWARDS</h4>
+                <image src="./images/imgi_106_CASHBACK-TILES-UPDATED.png" class="card-image"></image>
+            </div>
+            <div class="card card2">
+                <h4 class="card-h4 cd">GET HIGHER SAVINGS RATES, BUDGETING, AND MORE FEATURES</h4>
+                <image src="./images/imgi_114_Coins-earned-Premium-1.png" class="card-image"></image>
+            </div>
+            <div class="card card3">
+                <h4 class="card-h4">ENJOY DISCOUNTS AND PERKS FROM POPULAR BRANDS</h4>
+                <image src="./images/imgi_118_Discounts-Premium.png" class="card-image"></image>
+            </div>
+        </div>
+    </section>
+    <!-- seventh-sec -->
+    <section class="seventh-sec">
+        <div class="seventh-dcon">
+            <image src="./images/imgi_122_NSI06732-scaled.webp" class="seventh-img"></image>
+            <video src="./video/credit-update.mp4" autoplay loop class="seventh-vid"></video>
+        </div>
+        <div class="seventh-dcon2">
+            <h4 class="seventh-h4">Spend above your balance with Kuda’s Overdraft</h4>
+            <a href="./" class="seventh-a">Explore Overdrafts <i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+    </section>
+    <div class="carousel2">
+        <div id="carouselExampleFade" class="carousel carousel-fade">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/imgi_122_NSI06732-scaled.webp" class="d-block w-100 rounded-5 seventh-img"
+                        alt="...">
+                    <video src="./video/credit-update.mp4" autoplay loop class="seventh-vid"></video>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/imgi_122_NSI06732-scaled.webp" class="d-block w-100 rounded-5 seventh-img"
+                        alt="...">
+                    <video src="./video/Investment-stocks.mp4" autoplay loop class="seventh-vid"></video>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/imgi_122_NSI06732-scaled.webp" class="d-block w-100 rounded-5 seventh-img"
+                        alt="...">
+                    <video src="./video/Spend-category-budget-and-insights.mp4" autoplay loop
+                        class="seventh-vid"></video>
+                </div>
+            </div>
+            <div>
+                <button class="btn-icon btn-sm" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="prev">
+                    <span class="carousel-icon-prev" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="btn-icon btn-sm" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="next">
+                    <span class="carousel-icon-next" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- eight-sec -->
+    <section class="eight-sec">
+        <div class="eight-dcon">
+            <h1 class="eight-h1">PAY BILLS WITH LESS STRESS</h1>
+            <a href="./" class="eight-a">Explore Products and Services <i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+        <div class="eight-dcon2">
+            <a href="">
+                <div class="sticker skicker1">
+
+                    <img src="./images/imgi_117_etch-phone.png" alt="">
+                    <h2>Airtime</h2>
+                    <p>Buy airtime and internet data from any Nigerian mobile network.</p>
+                    <img src="./images/imgi_121_airtime-scaled-down-768x742.png" alt="" class="sticker-img">
+                </div>
+            </a>
+            <a href="">
+                <div class="sticker skicker2">
+
+                    <img src="./images/imgi_122_etch-lightbulb-1.png" alt="">
+                    <h2>Electicity</h2>
+                    <p class="boy">Recharge your prepaid meter instantly from all major electricity companies.</p>
+                    <img src="./images/imgi_126_Electricity-still-768x663.png" alt="" class="sticker-img">
+                </div>
+            </a>
+            <a href="">
+                <div class="sticker skicker3">
+
+                    <img src="./images/imgi_127_etch-gift-1-1.png" alt="">
+                    <h2>Gift Cards</h2>
+                    <p>Buy gift cards to pay subscriptions and shop around the world.</p>
+                    <img src="./images/imgi_135_giftcard-scaled-now-768x751.png" alt="" class="sticker-img">
+                </div>
+            </a>
+        </div>
+    </section>
+    <!-- ninth-sec -->
+    <section class="ninth-sec">
+        <div class="ninth-dcon">
+            <div class="h1-dcon">
+                <h1>SWITCH TO MORE
+                    REWARDING BANKING</h1>
+            </div>
+            <div class="ninth-dcon2">
+                <div class="flex-div flex">
+                    <h4>shii</h4>
+                    <p>Alerts</p>
+                    <p>Annual savings rates</p>
+                    <p>Bill payment fees</p>
+                    <p>Card delivery</p>
+                    <p>Card maintenance fees</p>
+                    <p>Instant reversals</p>
+                    <p>Maintenance fees</p>
+                    <p>Transfer fees</p>
+                </div>
+                <div class="flex-div flex2">
+                    <img src="./images/imgi_69_default.png" alt="" class="default">
+                    <p><i class="fa-solid fa-check"></i>Free instant notifications</p>
+                    <p><i class="fa-solid fa-check"></i>Up to 16%</p>
+                    <p><i class="fa-solid fa-check"></i>Free</p>
+                    <p><i class="fa-solid fa-check"></i>Yes</p>
+                    <p><i class="fa-solid fa-check"></i>Free</p>
+                    <p><i class="fa-solid fa-check"></i>Yes</p>
+                    <p><i class="fa-solid fa-check"></i>No</p>
+                    <p><i class="fa-solid fa-check"></i>25 free transfers every month</p>
+                </div>
+                <div class="flex-div flex3">
+                    <h4>Other banks</h4>
+                    <p><i class="fa-solid fa-minus"></i>Charge for SMS alerts</p>
+                    <p><i class="fa-solid fa-minus"></i>Up to 5%</p>
+                    <p><i class="fa-solid fa-minus"></i>Up to ₦100 per bill</p>
+                    <p><i class="fa-solid fa-minus"></i>Not always</p>
+                    <p><i class="fa-solid fa-minus"></i>Up to ₦50 per quarter</p>
+                    <p><i class="fa-solid fa-minus"></i>No</p>
+                    <p><i class="fa-solid fa-minus"></i>Yes</p>
+                    <p><i class="fa-solid fa-minus"></i>Up to ₦50 plus VAT</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- tenth-sec -->
+    <section>
+        <div>
+            <h4></h4>
+            <p></p>
+            <a href=""></a> <img src="./" alt=""><a href="./"></a>
+        </div>
+        <div>
+            <img src="./" alt="">
+        </div>
+    </section>
+    <!-- footer-bot -->
+    <footer>
+        <div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div>
+            <img src="./" alt="">
+            <p></p>
+        </div>
+    </footer>
+</body>
+<script src="https://kit.fontawesome.com/YOUR_KIT_CODE.js"></script>
+
+</html>
